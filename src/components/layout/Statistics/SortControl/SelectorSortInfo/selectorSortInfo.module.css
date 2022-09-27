@@ -1,0 +1,41 @@
+.select, .selectOpen {
+    position: relative;
+    line-height: 1;
+    width: 370px;
+    border: none;
+    border-bottom: 1px solid #DEDEDE;
+    padding: 19px 15px;
+    background-color: #F4F4F4;
+    cursor: pointer;
+}
+
+.select::after, .selectOpen::after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-image: url('../../../../../assets/images/down.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    right: 20px;
+    top: 40%;
+    pointer-events: none;
+}
+
+.selectOpen::after {
+    background-image: url('../../../../../assets/images/up.svg');
+}
+
+.option {
+    padding: 19px 15px;
+}
+
+.list {
+    width: 370px;
+    background-color: #F4F4F4;
+}
+
+.item {
+    padding: 19px 15px;
+    border-bottom: 1px solid #DEDEDE;
+}

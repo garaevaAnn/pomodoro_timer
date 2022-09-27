@@ -1,0 +1,36 @@
+
+.header {
+  max-width: 1440px;
+  padding: 15px 80px;
+  margin: 0 auto;
+  background-color: var(--white);
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  color: var(--red);
+  font-size: 24px;
+}
+
+.text {
+  padding-top: 3px;
+  padding-left: 10px;
+  color: var(--red);
+  display: block;
+}
+
+.statistics {
+  color: var(--red);
+  padding-left: 10px;
+}
+
+.link:hover .statistics {
+  color:  var(--darkred);
+}
+
+.link:hover .icon {
+  fill:  var(--darkred);
+}
+
+
+
+

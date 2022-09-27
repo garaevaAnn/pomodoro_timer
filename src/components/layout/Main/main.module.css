@@ -1,0 +1,7 @@
+.main {
+    max-width: 1440px;
+    padding: 15px 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }

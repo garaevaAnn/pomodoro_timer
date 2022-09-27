@@ -1,0 +1,72 @@
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.left {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+}
+
+
+.day,
+.pompdoro,
+.focus,
+.pauseTime,
+.stops {
+    background-color: var(--grayF4);
+    padding: 25px;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: bold;
+}
+.graph {
+    width: 75%;
+    height: 400px;
+}
+
+.day {
+    height: 53%;
+}
+
+.pompdoro {
+    height: 40%;
+    background-image: url('../../../../assets/images/pomodoro.svg');
+    background-position: center;
+    background-size: 115px 115px;
+    background-repeat: no-repeat;
+}
+
+.focus, .pauseTime, .stops {
+    display: flex;
+    flex-direction: column;
+   
+    background-position: right 10% center;
+    background-size: 110px 110px;
+    background-repeat: no-repeat;
+}
+.focus {
+    background-image: url('../../../../assets/images/focus.svg');
+}
+
+.pauseTime {
+    background-image: url('../../../../assets/images/clock.svg');
+}
+
+.stops {
+    background-image: url('../../../../assets/images/stop.svg');
+}
+
+.text {
+    font-size: 64px;
+    line-height: 77px;
+}

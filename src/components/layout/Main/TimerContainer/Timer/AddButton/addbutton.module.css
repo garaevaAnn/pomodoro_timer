@@ -1,0 +1,39 @@
+.add {
+    width: 50px;
+    height: 50px;
+    background-color: var(--greyC4);
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 26%;
+    left: 85%;
+    cursor: pointer;
+    /* -webkit-transition: background-color .2s ease;
+    -o-transition: background-color .2s ease;
+    transition: background-color .2s ease; */
+}
+
+.add::after,
+.add::before{
+  content: '';
+  position: absolute;
+  background: var(--white);
+}
+
+.add::before {
+	width: 2px;
+	left: 50%;
+	top: 17px;
+	bottom: 17px;
+}
+
+.add::after {
+	top: 49%;
+	left: 18px;
+	right: 16px;
+	height: 2px;
+}
+
+.add:hover {
+	background-color: var(--green);
+}

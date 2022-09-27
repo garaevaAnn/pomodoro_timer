@@ -1,0 +1,16 @@
+.todoList {
+    text-align: start;
+    width: 80%;
+}
+
+.item {
+    border-top: 1px solid var(--grayE4);
+}
+
+.item:focus {
+    background-color: var(--grayE4);
+}
+
+.item:last-child{
+    border-bottom: 1px solid var(--grayE4);
+}

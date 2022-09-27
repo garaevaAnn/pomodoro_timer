@@ -1,0 +1,8 @@
+.headerTimer {
+    padding: 19px 40px;
+    
+    color: var(--white);
+    min-width: 700px;
+    display: flex;
+    justify-content: space-between;
+}

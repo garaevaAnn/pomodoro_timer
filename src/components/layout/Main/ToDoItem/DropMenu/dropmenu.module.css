@@ -1,0 +1,19 @@
+.dropMenu {
+    padding: 16px 22px;
+    border: 1px solid var(--greyC4);
+}
+
+.dropItem {
+    min-width: 140px;
+    line-height: 17px;
+    cursor: pointer;
+}
+
+.dropItem:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.dropText {
+    padding-left: 5px;
+    padding-bottom: 2px;
+}

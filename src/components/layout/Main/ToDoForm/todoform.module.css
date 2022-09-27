@@ -1,0 +1,23 @@
+.form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+}
+
+.input {
+    background-color: var(--grayF4);
+    padding: 15px 19px;
+    border: 1px solid transparent;
+}
+
+.input[aria-invalid] {
+    border-color: red;
+  }
+
+.addbtn {
+    margin-top: 25px;
+    background-color: var(--green);
+    color: var(--white);
+}

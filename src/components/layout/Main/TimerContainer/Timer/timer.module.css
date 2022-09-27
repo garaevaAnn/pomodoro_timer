@@ -1,0 +1,16 @@
+.pomodoro {
+    background-color: var(--grayF4);
+    position: relative;
+}
+
+.timer {
+    padding-top: 70px;
+    font-size: 150px;
+    line-height: 100%;
+}
+
+.task {
+    display: block;
+    margin-bottom: 32px;
+}
+

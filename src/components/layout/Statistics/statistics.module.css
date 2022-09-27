@@ -1,0 +1,7 @@
+.statistics {
+    background-color: var(--grayE5);
+    padding: 90px 80px;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: start;
+}

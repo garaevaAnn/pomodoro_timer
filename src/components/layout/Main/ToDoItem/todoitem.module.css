@@ -1,0 +1,27 @@
+.itodoItem {
+    padding: 19px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.itodoItem:focus {
+    background-color: var(--grayE4);
+}
+
+
+.pomodoroCount {
+    border-radius: 100%;
+    border: 1px solid var(--grayE4);
+    padding: 3px 9px;
+    margin-right: 10px;
+}
+
+.inputName {
+    border: none;
+    background-color: var(--grayF1);
+}
+
+.pomodoro {
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,17 @@
+.instructions {
+    text-align: start;
+}
+
+.list{
+    text-align: start;
+    list-style: disc;
+    margin-bottom: 25px;
+}
+
+.item {
+    color: var(--red);
+}
+
+.text {
+    color: var(--black);
+}

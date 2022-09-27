@@ -1,0 +1,15 @@
+.btns {
+    padding-bottom: 107px;
+}
+
+.startbtn {
+    border: 2px solid var(--green);
+    margin-right: 25px;
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.stopbtn {
+    color: var(--red);
+    border: 2px solid var(--red);
+}
